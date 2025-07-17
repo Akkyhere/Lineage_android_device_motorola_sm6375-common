@@ -368,4 +368,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, vendor/motorola/sm6375-common/sm6375-common-vendor.mk)
 
 # Dolby
-$(call inherit-product, hardware/motorola/dolby/dolby.mk)
+$(call inherit-product, hardware/motorola/dolby/setup.mk)
