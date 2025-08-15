@@ -268,6 +268,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
+# Performance Mode
+PERF_GOV_SUPPORTED := true
+PERF_DEFAULT_GOV := walt
+
 # Properties
 PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
     ro.carrier
@@ -371,4 +375,4 @@ $(call inherit-product, vendor/motorola/sm6375-common/sm6375-common-vendor.mk)
 $(call inherit-product, hardware/motorola/dolby/setup.mk)
 
 # ViperFX
-$(call inherit-product, hardware/motorola/ViPER4AndroidFX/setup.mk)
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
