@@ -372,7 +372,4 @@ PRODUCT_COPY_FILES += \
 $(call inherit-product, vendor/motorola/sm6375-common/sm6375-common-vendor.mk)
 
 # Dolby
-$(call inherit-product, hardware/motorola/dolby/setup.mk)
-
-# ViperFX
-$(call inherit-product, hardware/motorola/ViPER4AndroidFX/setup.mk)
+$(call inherit-product, hardware/dolby/dolby.mk)
